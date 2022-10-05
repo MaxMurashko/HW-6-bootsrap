@@ -1,0 +1,168 @@
+html, body {
+    font-size: 16px;
+    background-color: rgb(116, 196, 129);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 90rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: rgb(83, 141, 83);
+}
+
+
+.article {
+    font-size: 3rem;
+}    
+    
+
+.link-to-phones {
+    color: black;
+    transition: .3s;
+}   
+
+
+
+.link-to-phones:hover {
+    font-size: 3.2rem;
+    text-decoration: underline;
+    color: red
+}    
+    
+
+.good-description {
+    display: none;
+    font-style: italic;
+}
+
+
+.good {
+    position: relative;
+    padding: 1rem;
+    border: 1px solid #c6c6c6;
+    border-radius: .3rem;
+    box-sizing: border-box;
+    background-color: white;
+    cursor: pointer;
+    transition: 1s;
+}     
+    
+    
+.good:hover .good-description {
+    display: block;
+}
+
+
+.good:hover {
+    z-index: 1;
+    box-shadow: 8px 4px 7px green;
+    transform: scale(1.05);
+}
+
+
+.good-img img {
+    transition: 3s;
+}  
+
+
+.good-img img:hover {
+    transform: scale(1.4);
+}
+
+
+.good-name {
+    font-weight: bold;
+}
+
+
+.good-price {
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+}
+
+
+.add-to-cart .glyphicon-shopping-cart {
+    font-size: 1.8rem;
+    color: black;
+}
+
+
+.add-to-cart:hover {
+    transform: rotate(90deg);
+}
+
+
+.sale {
+    display: inline-block;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    cursor: pointer;
+    transition: 3s;
+}
+
+
+.glyphicon-leaf {
+    font-size: 4rem;
+    color: rgb(231, 80, 9);
+}
+
+
+.sale:hover {
+    transform: translate(0, 5rem);
+}
+
+
+.add-to-cart {
+    display: inline-block;
+    position: absolute;
+    top: 0.7rem;
+    right: 0.7rem;
+    cursor: pointer;
+    transition: 3s
+}        
+ 
+    
+.go-top {
+    position: fixed;
+    margin-top: -1.1rem;
+    padding: .5rem 1.2rem;
+    top: 50%;
+    right: 0;
+    color: black;
+    background-color: red;
+    border: 1px solid black;
+    border-top-left-radius: .3rem ;
+    border-bottom-left-radius: .3rem;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+       
+
+
+ 
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
